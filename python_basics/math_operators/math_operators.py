@@ -1,26 +1,26 @@
-#Addition +
+# Addition +
 print(3 + 4)
 
-#Subtraction -
+# Subtraction -
 print(3 - 4)
 
-#Multiplication *
+# Multiplication *
 print(3 * 4)
 
-#Division /
+# Division /
 print(3 / 4)
 
-#Floor Division //
+# Floor Division //
 print(9 // 2)
-#Explanation: If your room is nine meters high,
-#you could place four 2-meter-high wardrobes on top of each other.
+# Explanation: If your room is nine meters high,
+# you could place four 2-meter-high wardrobes on top of each other.
 
-#Modulus %
+# Modulus %
 print(9 % 2)
-#Explanation: If your room is nine meters high, 
+# Explanation: If your room is nine meters high, 
 # you could place four 2-meter-high wardrobes on top of each other. 
 # There would be one meter of vertical space left.
 
-#Exponentiation
+# Exponentiation
 print( 3 ** 4)
-#Explanation: 3 ** 4 is the equivalent of 3 * 3 * 3 * 3.
+# Explanation: 3 ** 4 is the equivalent of 3 * 3 * 3 * 3.

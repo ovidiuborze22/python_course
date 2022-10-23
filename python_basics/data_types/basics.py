@@ -1,5 +1,4 @@
-from tkinter import Y
-
+# understanding different data types and how to use them
 
 x = 10
 y = "10"
