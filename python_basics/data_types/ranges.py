@@ -1,4 +1,3 @@
-# inside a list we can store any data types(integer, float, string etc.)
-# we can also store another list inside a list
-students_grades = [9, "Hello", [1, 2, 4.33, 6.666]]
+# creating a list of numbers in range from 1 - 10 in steps of 2 
+students_grades = list(range(1, 10, 2))
 print(students_grades)
