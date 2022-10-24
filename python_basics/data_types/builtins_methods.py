@@ -2,7 +2,8 @@
 students_grades = [9.1, 8.8, 7.5]
 
 # calculating the mean
-mysum = sum(students_grades)
+my_sum = sum(students_grades)
 length = len(students_grades)
-mean = mysum / length
+mean = my_sum / length
 print(mean)
+
