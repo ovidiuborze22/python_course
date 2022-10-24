@@ -1,7 +1,7 @@
 # understanding the use of variables
 
 # EXAMPLE 1:
-spent = 3
+spent = 5
 donated = 4
 
 total_amount = spent + donated
