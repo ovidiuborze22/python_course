@@ -1,4 +1,4 @@
-seconds = [1.2323442655, 1.4534345567, 1.023458894]
-current = 1.10001399445
+seconds = [1.23, 1.45, 1.02]
+current = 1.11
 
 seconds.append(current)
