@@ -19,7 +19,7 @@ if x == 1 and y==1:
 else:
     print("No")
 ```
-That will return **Yes** since **x == 1** and **y ==1 are** both True.
+That will return **Yes** since **x == 1** and **y ==1** are both True.
 
 
 
