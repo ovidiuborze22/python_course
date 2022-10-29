@@ -4,13 +4,13 @@ In this section, you learned to:
 
 
 Define **functions:**
-```
+```py
 def cube_volume(a):
     return a * a * a
 ```
 
 Write **if-else conditionals:**
-```
+```py
 message = "hello there"
  
 if "hello" in message:
@@ -20,7 +20,7 @@ else:
 ```
 
 Write **if-elif-else conditionals:**
-```
+```py
 message = "hello there"
  
 if "hello" in message:
@@ -34,7 +34,7 @@ else:
 ```
 
 Use the **and** operator to check if **both conditions** are True at the same time:
-```
+```py
 x = 1
 y = 1
  
@@ -45,7 +45,7 @@ else:
 ```
 
 Use the **or** operator to check if **at least one condition** is True:
-```
+```py
 x = 1
 y = 2
  
@@ -56,12 +56,12 @@ else:
 ```
 
 Check if a value is of a particular **type** with **isinstance:**
-```
+```py
 isinstance("abc", str)
 isinstance([1, 2, 3], list)
 ```
 or directly:
-```
+```py
 type("abc") == str
 type([1, 2, 3]) == lst
 ```
