@@ -1,4 +1,4 @@
-## In this section, you learned that:
+# **In this section, you learned that:**
 
 **Integers** are used to represent whole numbers:
 ```py
