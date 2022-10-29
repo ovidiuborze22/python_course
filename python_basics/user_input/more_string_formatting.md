@@ -6,5 +6,5 @@ surname = "Smith"
  
 message = "Your name is {}. Your surname is {}".format(name, surname)
 print(message)
-Output: *Your name is John. Your surname is Smith*
+Output: Your name is John. Your surname is Smith
 ```
