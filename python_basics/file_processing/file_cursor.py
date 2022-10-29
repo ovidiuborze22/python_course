@@ -5,7 +5,7 @@ myfile = open("python_course/python_basics/file_processing/fruits.txt")
 
 # to fix this we will apply this method
 # store the content in a variable
-content = myfile.read()
+content = myfile.read()# read method to read only once
 
 # now we can print as many times we want
 print(content)
