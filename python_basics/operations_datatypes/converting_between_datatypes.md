@@ -2,7 +2,7 @@
 Sometimes you might need to convert between different data types in Python for one reason or another. That is very easy to do:
 
 ## **From tuple to list:**
-```
+```py
 >>> cool_tuple = (1, 2, 3)
 >>> cool_list = list(cool_tuple)
 >>> cool_list
@@ -10,7 +10,7 @@ Sometimes you might need to convert between different data types in Python for o
 ```
 
 ## **From list to tuple:**
-```
+```py
 >>> cool_list = [1, 2, 3]
 >>> cool_tuple = tuple(cool_list)
 >>> cool_tuple
@@ -18,7 +18,7 @@ Sometimes you might need to convert between different data types in Python for o
 ```
 
 ## **From string to list:**
-```
+```py
 >>> cool_string = "Hello"
 >>> cool_list = list(cool_string)
 >>> cool_list
@@ -26,7 +26,7 @@ Sometimes you might need to convert between different data types in Python for o
 ```
 
 ## **From list to string:**
-```
+```py
 >>> cool_list = ['H', 'e', 'l', 'l', 'o']
 >>> cool_string = str.join("", cool_list)
 >>> cool_string
