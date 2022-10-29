@@ -1,3 +1,4 @@
+# Loop Over Integer Colors (E)
 # Loop over the colors items and print out the item in every loop only if the item is an integer. So, the output of your program would be:
 
 #11
