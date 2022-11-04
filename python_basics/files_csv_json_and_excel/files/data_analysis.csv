@@ -1,0 +1,5 @@
+ID,Address,City_x,State_x,Country_x,Name_x,Employees_x,City_y,Country_y,Employees_y,Name_y,State_y,Continent
+2,735 Dolores St,San Francisco,CA 94119,USA,Bready Shop,15,San Francisco,USA,15,Bready Shop,CA 94119,"USA,North America"
+4,3995 23rd St,San Francisco,CA 94114,USA,Ben's Shop,10,San Francisco,USA,10,Ben's Shop,CA 94114,"USA,North America"
+5,1056 Sanchez St,San Francisco,California,USA,Sanchez,12,San Francisco,USA,12,Sanchez,California,"USA,North America"
+6,551 Alvarado St,San Francisco,CA 94114,USA,Richvalley,20,San Francisco,USA,20,Richvalley,CA 94114,"USA,North America"
