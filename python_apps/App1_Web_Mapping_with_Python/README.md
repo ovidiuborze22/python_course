@@ -8,3 +8,5 @@ This will help you practice the Python core concepts, and you will also learn ho
 
 To make the most of the videos, try to play around with the code that you see in the videos. Try to experiment with the code, change it, add more functionalities if you can, and see how the output changes. You will succeed if you do that.
 
+## **Folium Documentation**
+https://python-visualization.github.io/folium/
