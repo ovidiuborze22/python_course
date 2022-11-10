@@ -32,3 +32,17 @@ Installing **jupyter** (library that enables a reach interactive Python shell)
 pip3.9 install jupyter
 ```
 Note: The commands above assume you are using Python 3.9. If you are using another version of Python please change pip3.9 to reflect the other version of Python you are using (e.g.,pip3.8).
+
+## **Documentation**
+
+**Pandas Documentation**<br>
+[Click here](https://pandas.pydata.org/docs/)...
+
+**Datetime Documentation**<br>
+[Click here](https://docs.python.org/3/library/datetime.html)...
+
+**Pytz Documentation**<br>
+[Click here](https://pytz.sourceforge.net/)...
+
+**Matplotlib Documentation**<br>
+[Click here](https://matplotlib.org/stable/)...
