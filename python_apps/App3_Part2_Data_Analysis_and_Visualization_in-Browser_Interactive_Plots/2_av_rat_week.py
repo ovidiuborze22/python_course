@@ -4,7 +4,6 @@ from datetime import datetime
 from pytz import utc
 import matplotlib.pyplot as plt
 
-
 data = pandas.read_csv('python_course/python_apps/App3_Part2_Data_Analysis_and_Visualization_in-Browser_Interactive_Plots/data_files/reviews.csv', parse_dates=['Timestamp'])
 data['Week'] = data['Timestamp'].dt.strftime('%Y-%U')
 week_average = data.groupby(['Week']).mean()
