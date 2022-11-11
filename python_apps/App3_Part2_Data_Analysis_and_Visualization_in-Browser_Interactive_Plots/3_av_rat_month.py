@@ -78,6 +78,7 @@ def app():
     hc.options.title.text= "Average Rating by Month"
     hc.options.xAxis.categories= list(month_average.index)
     hc.options.series[0].data= list(month_average['Rating'])
+    
     return wp
 
 jp.justpy(app)
