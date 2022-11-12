@@ -20,3 +20,14 @@ mysite
 └───virtual                      # python virtual environment
              
 ```
+
+## App Documentation
+
+Flask Documentation<br>
+[Click here...](https://flask.palletsprojects.com/en/2.0.x/)
+
+Heroku Documentation<br>
+[Click here...](https://devcenter.heroku.com/articles/getting-started-with-python)
+
+PythonAnywhere Documentation<br>
+[Click here...](https://www.pythonanywhere.com/)
