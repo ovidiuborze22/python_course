@@ -43,7 +43,7 @@
 
 <SignUpScreen>:
     GridLayout:
-        cols:1
+        cols: 1
         padding: 20, 20
         spacing: 20, 20
         Label:
@@ -61,9 +61,10 @@
                 size_hint: 0.3, 0.5
                 pos_hint: {'center_x':0.5, 'center_y':0.6}
                 font_size: '20sp'
+
 <SignUpScreenSuccess>:
     GridLayout:
-        cols:1
+        cols: 1
         Label:
             text: "Sign up successful!"
         Button:
@@ -72,18 +73,27 @@
 
 <LoginScreenSuccess>:
     GridLayout:
-        cols:1
-        Button:
-            text: "Logout"
-            on_press: root.log_out()
+        cols: 1
+        padding: 30, 30
+        spacing: 30, 30
+        RelativeLayout:
+            ImageButton:
+                on_press: root.log_out()
+                source: 'logout_hover.png' if self.hovered else "logout_nothover.png"
+                size_hint: 0.35, 0.35
+                pos_hint: {'center_x':0.93, 'center_y':0.8}
         Label:
             text: "How do you feel?"
         TextInput:
             id: feeling
             hint_text: "Things to try: happy, sad, unloved..."
-        Button:
-            text: "Enlighten me"
-            on_press: root.get_quote(root.ids.feeling.text)
+        RelativeLayout:
+            Button:
+                text: "Enlighten me"
+                on_press: root.get_quote(root.ids.feeling.text)
+                size_hint: 0.3, 0.5
+                pos_hint: {'center_x':0.5, 'center_y':0.6}
+                font_size: '20sp'
         Label:
             id: quote
             text: ""
