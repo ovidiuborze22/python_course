@@ -91,12 +91,16 @@
             Button:
                 text: "Enlighten me"
                 on_press: root.get_quote(root.ids.feeling.text)
-                size_hint: 0.3, 0.5
+                size_hint: 0.50, 0.50
                 pos_hint: {'center_x':0.5, 'center_y':0.6}
                 font_size: '20sp'
-        Label:
-            id: quote
-            text: ""
+        ScrollView:    
+            Label:
+                id: quote
+                text: ""
+                text_size: self.width, None
+                size_hint_y: None
+                height: self.texture_size[1]
 
 <RootWidget>:
     LoginScreen:
