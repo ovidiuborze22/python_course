@@ -88,13 +88,12 @@
         TextInput:
             id: feeling
             hint_text: "Things to try: happy, sad, unloved..."
-        RelativeLayout:
-            Button:
-                text: "Enlighten me"
-                on_press: root.get_quote(root.ids.feeling.text)
-                size_hint: 0.50, 0.50
-                pos_hint: {'center_x':0.5, 'center_y':0.6}
-                font_size: '20sp'
+        Button:
+            text: "Enlighten me"
+            on_press: root.get_quote(root.ids.feeling.text)
+            size_hint: 0.50, 0.50
+            pos_hint: {'center_x':0.5, 'center_y':0.6}
+            font_size: '20sp'
         ScrollView:    
             Label:
                 id: quote
