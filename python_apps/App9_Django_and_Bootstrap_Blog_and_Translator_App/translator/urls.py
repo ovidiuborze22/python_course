@@ -1,3 +1,4 @@
+# Configuring Translator URLs
 from . import views
 from django.urls import  path
 
