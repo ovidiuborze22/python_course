@@ -1,3 +1,4 @@
+# Blog App URLs Configuration
 from . import views
 from django.urls import URLPattern, path
 
