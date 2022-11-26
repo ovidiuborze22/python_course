@@ -29,7 +29,7 @@ def success_table():
 
 @app.route("/download-file/")
 def download():
-    return send_file(filename, attachment_filename='yourfile.csv', as_attachment=True)
+    return send_file(filename, download_name='yourfile.csv', as_attachment=True)
 
 if __name__=="__main__":
     app.run(debug=True)
